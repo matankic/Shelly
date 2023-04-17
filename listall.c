@@ -5,6 +5,8 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
+#define PATH_MAX        4096
+
 void list_directory(char* path) {
     DIR* dir;
     struct dirent* entry;
